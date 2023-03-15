@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   
+
+    
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+
+
+  <div class="main-cont">
+
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item  carousel-img active">
+          <img class="" src="./images/hero_1.jpg.webp" style="width:100%; height: 85vh; filter: brightness(50%);"
+            alt="First slide">
+        </div>
+        <div class="carousel-item carousel-img">
+          <img class="" src="./images/slider-1.jpg.webp" style="width:100%; height: 85vh;  filter: brightness(50%);" alt="Second slide">
+        </div>
+        <div class="carousel-item carousel-img ">
+          <img class="" src="./images/slider-2.jpg.webp" style="width:100%; height: 85vh;  filter: brightness(50%);"
+            alt="Third slide">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+   
+    
+
+
+
+    <div class="nav-cont fixed-top mt-4">
+      <div class="logo">HumanResources</div>
+      <ul id="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#footer1">About</a></li>
+        <li id="drop-list">
+          <select name="Services" id="Services">
+            <option value="list" class="list">Services</option>
+            <option value="list" class="list">HR Consulting</option>
+            <option value="list" class="list">Leadership Training</option>
+            <option value="list" class="list">HR Management</option>
+          </select>
+        </li>
+        <li><a href="./blog.html">Blog</a></li>
+
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+
+      <button id="menu-bar">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <button id="close-bar">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <div class="body1-text">
+      <h1>
+        We Are Your Partners in <b id="main-bolder2">Human Resources</b>
+      </h1>
+    </div>
+
+    <div class="body2-text">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam quae
+      nostrum totam atque possimus deserunt
+    </div>
+    <div class="body-buttons">
+      <button type="button" class="btn btn-primary" id="get-start">
+        Get Started
+      </button>
+      <button type="button" class="btn btn-outline-secondary" id="learn-btn">
+        Learn More
+      </button>
+    </div>
+
+    <div class="offer-cards">
+      <div class="services-cards">
+        <div class="img">
+          <img src="./icons/001-consultation.svg" width="100%" alt="" />
+        </div>
+        <div class="text">
+          <h3>Corporate Collabration</h3>
+          <p class="offer-card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptas, mollitia accusantium distinctio tenetur odit labore
+            recusandae soluta porro explicabo nesciunt
+          </p>
+        </div>
+        <a href="" class="learn-more">Learn More</a>
+      </div>
+
+      <div class="services-cards">
+        <div class="img">
+          <img src="./icons/002-discussion.svg" width="100%" alt="" />
+        </div>
+        <div class="text">
+          <h3>Strategic Partners</h3>
+          <p class="offer-card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptas, mollitia accusantium distinctio tenetur odit labore
+            recusandae soluta porro explicabo nesciunt
+          </p>
+        </div>
+        <a href="" class="learn-more">Learn More</a>
+      </div>
+
+      <div class="services-cards">
+        <div class="img">
+          <img src="./icons/003-turnover.svg" width="100%" alt="" />
+        </div>
+        <div class="text">
+          <h3>Infinite Possiblites</h3>
+          <p class="offer-card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptas, mollitia accusantium distinctio tenetur odit labore
+            recusandae soluta porro explicabo nesciunt
+          </p>
+        </div>
+        <a href="" class="learn-more">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="Agency-cont">
+    <div class="header-agency">
+      <h4 id="ouragency">Our Agency</h4>
+      <h4 id="why">Why Us?</h4>
+    </div>
+    <div class="body-agency">
+      <div class="left-body">
+        <div id="carouselExampleDark" class="carousel carousel-light slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="./images/slider-1.jpg.webp" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./images/slider-2.jpg.webp" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./images/slider-3.jpg.webp" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./images/slider-4.jpg.webp" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="right-body">
+        <div class="atlas">Provident atlias</div>
+        <div class="body-agency-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+          praesentium nam provident cupiditate, fugit, numquam eum excepturi
+          quae sapiente ad, vero error amet nobis illo voluptas est harum
+          accusamus accusantium.
+        </div>
+        <div class="right-body-text">
+          <div class="right-icons">
+            <div class="img-icon">
+              <img src="./images/icons.PNG" width="100%" alt="" />
+            </div>
+            <div class="right-text">lorem ipsum dolor smit</div>
+          </div>
+
+          <div class="right-icons">
+            <div class="img-icon">
+              <img src="./images/icons.PNG" width="100%" alt="" />
+            </div>
+            <div class="right-text">lorem ipsum dolor smit</div>
+          </div>
+
+          <div class="right-icons">
+            <div class="img-icon">
+              <img src="./images/icons.PNG" width="100%" alt="" />
+            </div>
+            <div class="right-text">lorem ipsum dolor smit</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="countemploye-cont">
+    <div class="number-employee">
+      <h2>85,944</h2>
+      <p>NUMBER OF CLIENT</p>
+    </div>
+    <div class="number-employee">
+      <h2>172</h2>
+      <p>NUMBER OF PERSONNEL</p>
+    </div>
+    <div class="number-employee">
+      <h2>20</h2>
+      <p>YEARS OF EXPERIENCE</p>
+    </div>
+  </div>
+
+  <div class="leadership-cont">
+    <h2>The Leadership</h2>
+
+    <div class="leadership">
+      <div class="leadership-cards">
+        <div class="leadership-cards-text">
+          <h5>BOB MILLER</h5>
+          <p>CEO AND CO-FOUNDER</p>
+        </div>
+      </div>
+
+      <div class="leadership-cards1">
+        <div class="leadership-cards-text">
+          <h5>JEAN SMITH</h5>
+          <p>CEO AND CO-FOUNDER</p>
+        </div>
+      </div>
+
+      <div class="leadership-cards2">
+        <div class="leadership-cards-text">
+          <h5>DAVIDW WILSON</h5>
+          <p>CEO AND CO-FOUNDER</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="customer-cont">
+    <h2>Happy Customer</h2>
+    <div class="quote-img">
+      <img src="./images/download.png" width="100%" alt="" />
+    </div>
+
+
+    <div class="container mb-4">
+      <div id="carouselContent " class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active text-center p-4 text-main-carousel">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptate excepturi saepe, magni ut praesentium culpa! Animi
+              atque, architecto ipsa repudiandae aperiam odit doloremque
+              laudantium eius! Alias ea nesciunt provident asperiores.
+            </p>
+          </div>
+          <div class="carousel-item text-center p-4 text-main-carousel">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint
+              iste qui accusamus dolorum perferendis debitis. Reiciendis
+              pariatur omnis numquam? Est voluptate vel maiores veniam in
+              similique voluptatum eaque mollitia accusamus!
+            </p>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon carousel-main-body" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+          <span class="carousel-control-next-icon carousel-main-body" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="service-contain">
+    <h2>Our Services</h2>
+
+    <div class="service-cards-multiple">
+      <div class="serv-card">
+        <div class="serv-img">
+          <img src="./icons/004-gear.svg" width="100%" alt="" />
+        </div>
+
+        <div class="service-text">
+          <h3>Regular Update</h3>
+
+          <p class="service-card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptas, mollitia accusantium
+          </p>
+        </div>
+      </div>
+
+      <div class="serv-card">
+        <div class="serv-img">
+          <img src="./icons/005-conflict.svg" width="100%" alt="" />
+        </div>
+
+        <div class="service-text">
+          <h3>Infinite Possiblites</h3>
+
+          <p class="service-card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptas, mollitia accusantium
+          </p>
+        </div>
+      </div>
+
+      <div class="serv-card">
+        <div class="serv-img">
+          <img src="./icons/006-meeting.svg" width="100%" alt="" />
+        </div>
+
+        <div class="service-text">
+          <h3>Good Security</h3>
+
+          <p class="service-card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptas, mollitia accusantium
+          </p>
+        </div>
+      </div>
+
+      <div class="serv-card">
+        <div class="serv-img">
+          <img src="./icons/007-brainstorming.svg" width="100%" alt="" />
+        </div>
+
+        <div class="service-text">
+          <h3>HR Management</h3>
+
+          <p class="service-card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptas, mollitia accusantium
+          </p>
+        </div>
+      </div>
+
+      <div class="serv-card">
+        <div class="serv-img">
+          <img src="./icons/001-consultation.svg" width="100%" alt="" />
+        </div>
+
+        <div class="service-text">
+          <h3>Intuitive Thinking</h3>
+
+          <p class="service-card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptas, mollitia accusantium
+          </p>
+        </div>
+      </div>
+
+      <div class="serv-card">
+        <div class="serv-img">
+          <img src="./icons/009-brainstorming-2.svg" width="100%" alt="" />
+        </div>
+
+        <div class="service-text">
+          <h3>Play Video</h3>
+
+          <p class="service-card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptas, mollitia accusantium
+          </p>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="btn btn-dark mt-3" id="dark-btn-serv">
+      More Feature
+    </button>
+  </div>
+
+  <div class="blog-cont">
+    <h2>Our Blog</h2>
+    <p id="blog-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+      voluptates! Repudiandae, voluptate! Laboriosam dolores, vitae quaerat
+    </p>
+    <div class="blog-image">
+
+      <div class="row-image">
+        <div class="img1">
+          <img src="./images/slider-2.jpg.webp" width="100%" alt="" />
+        </div>
+        <div class="img2">
+          <img src="./images/slider-1.jpg.webp" width="100%" alt="" />
+        </div>
+      </div>
+
+      <div class="row-image">
+        <div class="img1">
+          <img src="./images/slider-3.jpg.webp" width="100%" alt="" />
+        </div>
+        <div class="img2">
+          <img src="./images/slider-4.jpg.webp" width="100%" alt="" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <footer class="footer" id="footer1">
+    <div class="container_footer">
+      <div class="footer_1">
+        <h5>ABOUT</h5>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias odit optio tempore.</p>
+      </div>
+
+      <div class="footer_2">
+        <h5>Learn More</h5>
+        <ul class="footer-list">
+          <li>How it Work</li>
+          <li>Usefull Work</li>
+          <li>pricing</li>
+          <li>Sitemap</li>
+        </ul>
+      </div>
+
+      <div class="footer_3">
+        <h5>SUPPORT</h5>
+        <ul class="footer-list">
+          <li><a href="index.html"></a>Faqs</li>
+          <li><a href="about.html"></a>Contact Us</li>
+          <li><a href="course.html"></a>Help Desk</li>
+          <li><a href="contact.html"></a>Knowledgebase</li>
+        </ul>
+      </div>
+
+      <div class="footer_4">
+        <h5>ABOUT US</h5>
+        <ul class="footer-list">
+          <li>About Us </li>
+          <li>Careers</li>
+          <li>Term of Service</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+
+      <div class="footer_5">
+        <h5>CONTACT WITH US</h5>
+        <div>
+          <ul class="footer-list-social">
+            <li> <i class="fa-brands fa-facebook"></i></li>
+            <li><a href="#"></a><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-github"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-text">
+      COPYRIGHT &#169; 2023. ALL RIGHTS RESERVED | This Template Is Made With <b id="heart">&hearts;</b> By <b
+        id="change-color">COLORLIB</b>
+    </div>
+
+
+
+  </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
+  <script src="app.js"></script>
+</body>
+
+</html>
